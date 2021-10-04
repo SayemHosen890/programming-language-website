@@ -4,8 +4,7 @@ import './Contact.css'
 const Contact = () => {
     return (
         <div>
-            <h2>Do you want to be successful programmer?</h2>
-            <br />
+            <h2>Do you want to be a successful programmer?</h2>
             <br />
             <h5>Email Address : programming45@gmail.com</h5>
             <br />
@@ -13,6 +12,8 @@ const Contact = () => {
             <br />
             <h5>Location : Mirpur-10,Dhaka,Bangladesh</h5>
             <br />
+            <br />
+            <h5>Fillup the form and contact us</h5>
             <form class="row g-3 needs-validation mx-5 mb-5" novalidate>
                 <div class="col-md-4">
                     <label for="validationCustom01" class="form-label">First name</label>

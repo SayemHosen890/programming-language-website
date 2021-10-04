@@ -13,10 +13,15 @@ const Service = () => {
     }, []);
 
     return (
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            {
-                languageDetails.map(detail => <LanguageDetail key={detail.id} detail={detail}></LanguageDetail>)
-            }
+        <div>
+            <div className='mt-2'>
+                <h2>Our Services And Learning Topics</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                {
+                    languageDetails.map(detail => <LanguageDetail key={detail.id} detail={detail}></LanguageDetail>)
+                }
+            </div>
         </div>
     );
 };
