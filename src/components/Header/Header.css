@@ -1,0 +1,10 @@
+nav{
+    background-color: rgb(46, 161, 161);
+}
+nav a{
+    margin-right: 35px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+}
