@@ -7,7 +7,7 @@ const Header = () => {
 
     const activeStyle = {
         fontWeight: "bold",
-        color: "red"
+        color: "DarkOrange"
     }
 
     return (
