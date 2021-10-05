@@ -5,6 +5,10 @@ nav a{
     margin-right: 35px;
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
+}
+.nav-content img{
+    height: 70px;
+    width: 300px;
 }
